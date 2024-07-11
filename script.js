@@ -37,11 +37,6 @@ function catFacts() {
      display.textContent = `${computerChoice}`;
 }
 
-// function meow(){
-//   var music = new Audio('');
-//   music.play();
-// }
-
 function randomColorandAnimation(){
    const list = [ "black", "red", "green", "blue", "yellow",];
    const second = ["red", "black", "yellow", "purple"];
@@ -61,3 +56,12 @@ function randomColorandAnimation(){
    document.body.style.fontFamily = computerChoice3;
    document.body.style.fontSize = computerChoice4;
   }
+
+function dadjokes(){
+   const list = ["HEllo", "bye"]
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+
+     const display = document.getElementById('result');
+
+        display.textContent = `${computerChoice}`;
+}
