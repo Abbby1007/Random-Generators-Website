@@ -58,7 +58,7 @@ function randomColorandAnimation(){
   }
 
 function dadjokes(){
-   const list = ["HEllo", "bye"]
+   const list = ["Why shouldn't you tell secrets in a cornfield? There are too many ears all around.", "What kind of underpants do lawyers wear? Briefs.", "What do you call it when a cow grows facial hair? A moo-stache.","Did you hear about the cleaners who went to space? They ended up scrubbing the mission.","Did you hear about the two rowboats that got into an argument? It was an oar-deal.","What did the beach say when the tide came in? Long time no sea.","Why do turkeys play percussion? They have drumsticks.","There are only two things I don't eat for breakfast: Lunch and dinner.","I adopted a dog from a blacksmith. As soon as I brought him home, he made a bolt for the door.","How much does it cost to swim with sharks? An arm and a leg.","What did one toilet say to the other? You appear a bit flushed.","Why are most people tired on April 1? They've just finished a 31-day March.","How do you make a tissue dance? Put a little boogie in it.","Why did the rabbit go to the salon? It was having a bad hare day.","Where do birds stay when they travel? Someplace cheep.",];
    const computerChoice = list[Math.floor(Math.random() * list.length)];
 
      const display = document.getElementById('result');
