@@ -7,14 +7,13 @@ button {
   size: 25px;
   font-size: 18px;
   padding: 15 px 25 px;
-   border-radius: 5px;
+  border-radius: 5px;
   color: black;
   cursor: pointer;
   margin: 10px
- 
 }
 
-#gameArea{
+#gameArea {
   width: 80%;
   max-width: 600px;
   margin: 0 auto;
@@ -26,7 +25,7 @@ button {
   font-size: 25px;
 }
 
-#gameArea2{
+#gameArea2 {
   width: 80%;
   max-width: 600px;
   margin: 0 auto;
@@ -38,42 +37,60 @@ button {
 
 }
 
-#generate{
+#generate {
   background-color: #03C03C;
 }
 
-#catfacts{
-  background-color:#ffaf7a ;
+#catfacts {
+  background-color: #ffaf7a;
 }
 
-#pickuplines{
-  background-color: #F7B4BB ;
+#pickuplines {
+  background-color: #F7B4BB;
 }
 
-img{
+img {
   max-width: 100%;
   max-height: 100%;
 }
 
-#colorAndAnimation{
+#colorAndAnimation {
   background-color: #000000;
   color: white;
 }
 
-#dadjokes{
+#dadjokes {
   background-color: #0096C7;
 }
 
-#pizzaToppings{
+#pizzaToppings {
   background-color: #e12301;
-  color:#dba24a ;
+  color: #dba24a;
 }
 
-#compliments{
+#compliments {
   background-color: #FADA5E;
 }
 
 
-#breakfast{
+#breakfast {
   background-color: #ffd1b1;
+}
+
+#insults {
+  background-color: #74C365;
+}
+
+#furniture {
+  background-color: #FDDDA0;
+  color: #1B1212;
+}
+
+#icecream{
+  background-color: #eecaa6;
+  color: #7B3F00;
+}
+
+#select {
+   background-color: #B200ED;
 }
