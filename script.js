@@ -74,3 +74,31 @@ function pizzaToppings(){
 
         display.textContent = `${computerChoice}`;
 }
+
+function randomBreakfast() {
+   const list = ["Scrambled Eggs", "Boiled Eggs", "bacon", "bagel", "Froot loop", "Avocado Toast", "Yogurt", "Frosted Flakes"];
+
+   const sundayChoice = list[Math.floor(Math.random() * list.length)];
+   const mondayChoice = list[Math.floor(Math.random() * list.length)];
+   const tuesdayChoice = list[Math.floor(Math.random() * list.length)];
+   const wednesdayChoice = list[Math.floor(Math.random() * list.length)];
+   const thursdayChoice = list[Math.floor(Math.random() * list.length)];
+   const fridayChoice = list[Math.floor(Math.random() * list.length)];
+   const saturdayChoice = list[Math.floor(Math.random() * list.length)];
+   
+   const display = document.getElementById('result');
+
+   const display2 = document.getElementById('result2');
+
+   
+   display.textContent = `Sunday: ${sundayChoice} | Monday: ${mondayChoice} | Tuesday: ${tuesdayChoice} | Wednesday: ${wednesdayChoice} `;
+   display2.textContent = `Thursday: ${thursdayChoice} | Friday: ${fridayChoice} | Saturday: ${saturdayChoice} | `;
+}
+
+function randomCompliments(){
+    const list = ["Your smile is contagious.", "I bet you can make even the crankiest babies smile.", "You have the best laugh.", "You light up the room.", "You have a great sense of humor.", "If you were a cartoon character, you'd be the one that gets bluebirds to sing on your shoulders.", "You're like sunshine on a rainy day.", "Colors seem brighter when you're around.", "You are perfect just the way you are.", "You are enough.", "On a scale from 1 to 10, you're an 11.", "You're one of a kind."];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
+   
+}
