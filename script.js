@@ -65,3 +65,12 @@ function dadjokes(){
 
         display.textContent = `${computerChoice}`;
 }
+
+function pizzaToppings(){
+   const list = ["Pepperoni","Onions", "Ham", "Mushrooms" ,"Sausage" ,"Pineapple", "Supreme (Bacon, Onion, beef mince, capsicum(bell peppers), pepperoni, mushroom, andolive)", "Hawaiian (Ham and Pineapple)", "BBQ Meatlovers (pepperoni, bacon, cabanossi, beef mince, ham)", "Garlic Butter Prawns and Chilli (garlic butter prawns, capsicum, onion, chili, rocket)", "Sausage and Kale","Hot n’ spicy(spicy salami, capsicum, sliced jalapenos, onions, hot sauce)", "Aussie pizza (bacon, red onion, a whole egg cracked on)", "Caramelized onion, feta, beef mince", "Squid, chorizo, rocket","Spring pizza (zucchini, artichoke, asparagus, spinach, and pesto dolloped on just before serving)","Seafood pizza (precooked squid, mussels, clams, prawns etc)","BBQ chicken (BBQ sauce, shredded chicken, red onion, smoked paprika)"];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+
+     const display = document.getElementById('result');
+
+        display.textContent = `${computerChoice}`;
+}
