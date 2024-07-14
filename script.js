@@ -116,9 +116,19 @@ function furniture() {
    display.textContent = `${computerChoice}`;
 }
 
-function icecream(){
-   const list = ["Chocolate","Vanilla","Strawberry","Mint Chocolate Chip","Butter Pecan","Chocolate Chip Cookie Dough"," Cookies n' Cream","Rocky Road","Coffee","Chocolate Chip","Pistachio","Neapolitan","Cake Batter","Salted Caramel","Butterscotch","French Vanilla","Cherry Vanilla","Chocolate Peanut Butter","Maple","Black Raspberry Chip","Moose Tracks","Raspberry Ripple","Strawberry Cheesecake","Cotton Candy","Watermelon","Pralines 'n Cream","Matcha Green Tea","Banana","Rum Raisin","Bubblegum","Tutti Frutti","Eggnog"];
+function icecream() {
+   const list = ["Chocolate", "Vanilla", "Strawberry", "Mint Chocolate Chip", "Butter Pecan", "Chocolate Chip Cookie Dough", " Cookies n' Cream", "Rocky Road", "Coffee", "Chocolate Chip", "Pistachio", "Neapolitan", "Cake Batter", "Salted Caramel", "Butterscotch", "French Vanilla", "Cherry Vanilla", "Chocolate Peanut Butter", "Maple", "Black Raspberry Chip", "Moose Tracks", "Raspberry Ripple", "Strawberry Cheesecake", "Cotton Candy", "Watermelon", "Pralines 'n Cream", "Matcha Green Tea", "Banana", "Rum Raisin", "Bubblegum", "Tutti Frutti", "Eggnog"];
    const computerChoice = list[Math.floor(Math.random() * list.length)];
    const display = document.getElementById('result');
    display.textContent = `${computerChoice}`;
+}
+
+function emoji() {
+   const list = ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "🥲", "🥹", "😊", "😇", "🙂", "🙃", "😉", "😌", "🤬", "😶‍🌫️", "🤢", "👾", "🤑",];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
+}
+function sport(){
+   
 }
