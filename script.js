@@ -180,3 +180,18 @@ function catJokes() {
    const display = document.getElementById('result');
    display.textContent = `${computerChoice}`;
 }
+
+
+function christmasMovies() {
+   const list = ["The Santa Clause (1994)", "A Christmas Story (1983)", "Rudolph, The Red-Nosed Reindeer (1964)", "National Lampoon's Christmas Vacation (1989)", "How the Grinch Stole Christmas! (1966)", "How the Grinch Stole Christmas (2000)", "Elf (2003)", "A Charlie Brown Christmas (1965)", "The Holiday (2006)", "Home Alone (1990)", "It's A Wonderful Life (1946)", "Scrooged (1988)", " Miracle on 34th Street (1947)", "Miracle on 34th Street (1994)", "Love Actually (2003)", "The Muppet Christmas Carol (1992)", "Die Hard (1988)", "The Nightmare Before Christmas (1993)", "The Family Stone (2005)", "Bad Santa (2003)", "Meet Me in St. Louis (1944)", "The Polar Express (2004)",];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
+}
+
+function naturalHazards() {
+   const list = ["Avalanche", "Coastal Flooding", "Cold Wave", "Drought", "Earthquake", "Hail", "Heat Wave", "Hurricane", "Ice Storm", "Landslide", "Lightning", "Riverine Flooding", "Strong Wind", "Tornado", "Tsunami", "Volcanic Activity", "Wildfire", "Winter Weather",];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
+}

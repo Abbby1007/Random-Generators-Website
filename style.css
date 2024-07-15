@@ -42,8 +42,9 @@ button {
 }
 
 #catfacts {
-  background-color: #ffaf7a;
+  background-color: #FFA500;
 }
+
 
 #pickuplines {
   background-color: #F7B4BB;
@@ -137,5 +138,15 @@ img {
 }
 
 #catJokes{
-  background-color: ;
+  background-color: #ffaf7a;
+}
+
+#christmassMovies{
+  background-color: 	#ff0000;
+  color: 	#3f8f29;
+}
+
+#naturalHazards{
+  background-color: #2fced2;
+  color: #f0fb3e;
 }
