@@ -105,17 +105,27 @@ img {
 }
 
 #summerOlympicSports{
-  background-color: #567D46;
+  background-color: #FDB813;
 }
 
 #winterOlympicSports{
-  background-color: ;
+  background-color: #87CEEB;
 }
 
 #summerYouthOlympicSports{
-  background-color: ;
+  background-color: #FCD14D ;
 }
 
 #winterYouthOlympicSports{
+  background-color: #B3DAF1;
+  color: "black";
+}
+
+#nextPage{
+  background-color: #2B3BFF;
+  color: "black";
+}
+
+#dogFacts{
   background-color: ;
 }

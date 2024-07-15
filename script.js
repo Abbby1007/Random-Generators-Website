@@ -152,5 +152,16 @@ function summerYouthOlympicSports() {
 }
 
 function winterYouthOlympicSports(){
+   const list = ["Alpine Skiing","Biathlon","Bobsleigh","Cross-Country Skiing","Curling","Figure Skating","Freestlye Skiing","Ice Hockey","Luge","Nordic Combined","Short Track Speed SKating","Skeleton","Ski Jumping","Ski Mountaineering","Snowboard","Speed Skating",];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
+}
+
+function dogFacts(){
+   const list = ["",];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
    
 }
