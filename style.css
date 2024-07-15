@@ -127,5 +127,15 @@ img {
 }
 
 #dogFacts{
+  background-color:  #9f796c;
+  color: "black";
+ 
+}
+
+#dogJokes{
+  background-color: #bd9a82;
+}
+
+#catJokes{
   background-color: ;
 }

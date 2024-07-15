@@ -145,23 +145,38 @@ function winterOlympicSports() {
 }
 
 function summerYouthOlympicSports() {
-   const list = ["Acrobatic Gymnastics", "Archery", "Artistic Gymnastics", "Athletics", "Badminton", "Baseball 5", "Basketball 3x3", "Beach Handball", "Beach Volleyball", "Boxing", "Breaking", "Cycling BMX Freestyle", "Cycling Road", "Diving", "Equestrian", "Fencing", "Futsal (Soccer)", "Golf", "Hockey", "Judo", "Karate", "Modern Pentathlon", "Rhythmic Gymnastics", "Roller SPeed Skating", "Rowing", "Rugby Sevens", "Sailing", "Shooting", "Skateboarding", "Sport Climbing","Surfing","Swimming","Table Tennis","Taekwondo","Tennis","Trampoline","Triathlon","Weightlifting","Wrestling","Wushu",];
+   const list = ["Acrobatic Gymnastics", "Archery", "Artistic Gymnastics", "Athletics", "Badminton", "Baseball 5", "Basketball 3x3", "Beach Handball", "Beach Volleyball", "Boxing", "Breaking", "Cycling BMX Freestyle", "Cycling Road", "Diving", "Equestrian", "Fencing", "Futsal (Soccer)", "Golf", "Hockey", "Judo", "Karate", "Modern Pentathlon", "Rhythmic Gymnastics", "Roller SPeed Skating", "Rowing", "Rugby Sevens", "Sailing", "Shooting", "Skateboarding", "Sport Climbing", "Surfing", "Swimming", "Table Tennis", "Taekwondo", "Tennis", "Trampoline", "Triathlon", "Weightlifting", "Wrestling", "Wushu",];
    const computerChoice = list[Math.floor(Math.random() * list.length)];
    const display = document.getElementById('result');
    display.textContent = `${computerChoice}`;
 }
 
-function winterYouthOlympicSports(){
-   const list = ["Alpine Skiing","Biathlon","Bobsleigh","Cross-Country Skiing","Curling","Figure Skating","Freestlye Skiing","Ice Hockey","Luge","Nordic Combined","Short Track Speed SKating","Skeleton","Ski Jumping","Ski Mountaineering","Snowboard","Speed Skating",];
+function winterYouthOlympicSports() {
+   const list = ["Alpine Skiing", "Biathlon", "Bobsleigh", "Cross-Country Skiing", "Curling", "Figure Skating", "Freestlye Skiing", "Ice Hockey", "Luge", "Nordic Combined", "Short Track Speed SKating", "Skeleton", "Ski Jumping", "Ski Mountaineering", "Snowboard", "Speed Skating",];
    const computerChoice = list[Math.floor(Math.random() * list.length)];
    const display = document.getElementById('result');
    display.textContent = `${computerChoice}`;
 }
 
-function dogFacts(){
-   const list = ["",];
+function dogFacts() {
+   const list = ["All Dogs Are Directly Descended from Wolves", "There Are Over 75 Million Pet Dogs in the United States", "A Dog’s Nose Is Its Fingerprint", "Puppies Are Born Deaf and Blind", "A Dog’s Sense of Smell Is Reduced When Panting", "Dogs Have Stellar Noses", " Dogs Have Fewer Taste Buds Than Humans", "Dogs Are as Smart as 2-Year-Old Children", "Dogs Can Learn More Than 1,000 Words", " Dogs Sleep Curled in a Ball Out of Instinct", "A Bloodhound’s Nose Is So Strong Their Scent Can Be Used in Court", "A dog named Lassie Was the First Animal in the Animal Hall of Fame in 1969", "Basenjis Are the Only Barkless Dogs", "Obesity Is the Number One Health Concern in Dogs", "Chocolate Can Be Fatal to a Dog", "The Beatles Song “A Day in the Life” Has a Frequency Only Dogs Can Hear", "Dogs Learn About Each Other Through Butt Sniffing", "Your Dog Is More Responsive to Your Tone Than Your Words", "Dogs Dream Just Like You and Me", "Dalmatians Are Born Completely White", "Greyhounds Can Beat Cheetahs in a Race", " Dogs Are Selfless", "Humans and Dogs Improve Each Other’s Health", "The Saluki Is the Oldest Dog Breed", "Irish Wolfhounds Are the Tallest Dog Breed", "The Tallest Dog in the World Was 44 Inches Tall", "The Old English Mastiff and St. Bernard Are the World’s Heaviest Dog Breeds", "A Bulldog Was Taught to Skateboard", " There Are Approximately 600 Million Dogs in the World", "Dogs Were Domesticated Between 9,000 and 34,000 Years Ago", " Approximately 63.4 Million Households in the United States Have a Dog",];
    const computerChoice = list[Math.floor(Math.random() * list.length)];
    const display = document.getElementById('result');
    display.textContent = `${computerChoice}`;
-   
+
+}
+
+function dogJokes() {
+   const list = ["How does a Japanese chihuahua say hello? | Konichihuahua.", "What do you call a wild dog that meditates? | Aware wolf. ", "What do you call a dog who is getting old? | GrandPAW.", "Why did the man living in Alaska name his dog Frost? | Because Frost bites.", "What do you call a dog magician? | A labracadabrador. ", "Why should you be careful when it rains cats and dogs? | Because you might step in a poodle.", "In English class, why do dogs like conjunctions? | Because dogs love buts.", "Which dog breed is Dracula's favorite? | Bloodhounds.", "Why did the Dachshund want to sit in the shade? | Because it was a hot dog.", "Which dog breed loves living in the Big Apple? | A New Yorkie.", "Why is it called a litter of puppies? | Because they’ll trash the place.", "Why didn't the dog want to play football? | It was a Boxer.", "When you cross a dog with a cougar, what do you get? | A lot of trouble with a postman.", "What do dogs usually like to eat at the movie theaters? | Pupcorn", `Policeman: "Excuse me Mr, but were you aware that your dog has been chasing a guy on his bike?" | Dog Owner: "Are you nuts? My dog is not even able to ride a bike."
+`, "What do you call a cowardly dog? | A golden retreater.", `Why can't you tell knock knock jokes to a dog? | "Knock knock", Dog: "grrrr, woof, woof, bark, bark, bark." `, "What do a dog and a marine biologist have in common? | One wags a tail, and the other tags a whale.", "What kinds of outdoor markets do dogs despise? | Flea markets.", "What was the little Scottish dog's reaction when he first saw the Loch Ness Monster? | He was Terrier-fied.", "What did Darth Vader's dog say to Luke's dog? | Come on! Join the bark side.",];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
+}
+
+function catJokes() {
+   const list = ["What is a cat's best subject in school? | Hiss-tory", "What do you call a cat who works in business | A purrfessional", "What’s a cat’s favorite TV show? | Claw & Order: Special Kittens Unit.", "What do you call the cat that gets caught by the police? | The purrpetrator.", "Why don’t cats play poker in the jungle? | Too many cheetahs!", "What’s a cat’s favorite song? | “Fur Elise.”", "Why don’t kittens like online shopping? | They prefer cat-alogues.", "Why did the cat ask for a drum set? | To play some bangin’ purrcussion!", "What did the cat say when it lost all its money? | “I’m paw!”", "Why don’t cats like house parties? | Too many cat-astrophes.", "What do you call a cat who runs the post office? | Post Meowster.", "What do you call a cat who works in business? | A purrfessional.", "What do you call a cat who teaches at a university? | A purrfessor.", "How do you impress a cat at dinnertime? | Prepare a fancy feast.",];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
 }
