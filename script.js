@@ -129,6 +129,28 @@ function emoji() {
    const display = document.getElementById('result');
    display.textContent = `${computerChoice}`;
 }
-function sport(){
+
+function summerOlympicSports() {
+   const list = ["Archery", "Artistic Gymnastics", "Artistic Swimming", "Athletics", "Badminton", "Baseball/Softball", "Basketball", "Basketball 3x3", "Beach Volleyball", "Boxing", "Breaking", "Canoe Slalom", "Canoe Sprint", "Cricket", "Cycling BMX Freestlye", "Cycling BMX Racing", "Cycling Mountain Bike", "Cycling Road", "Cycling Track", "Diving", "Equestrian", "Fencing", "Flag Football", "Football(Soccer)", "Golf", "Handball", "Hockey", "Judo", "Karate", "Lacrosse", "Marathon Swimming", "Modern Pentathlon", "Rhythmic Gymnastics", "Rowing", "Rugby Sevens", "Sailing", "Shooting", "Skateboarding", "Table Tennis", "Taekwondo", "Trampoline", "Triathlon", "Volleyball", "Water Polo", "Weightlifting", "Wrestling",];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
+}
+
+function winterOlympicSports() {
+   const list = ["Alpine Swiing", "Biathlon", "Bobsleigh", "Cross-sountry Skiing", "Curling", "Figure Skating", "Freestyle Skaiing", "Ice Hockey", "Luge", "Nordic Combined", "Short Track Speed Skating", "Skeleton", "Ski Jumping", "Ski Mountaineering", "Snowbaord", "Speed Skating",];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
+}
+
+function summerYouthOlympicSports() {
+   const list = ["Acrobatic Gymnastics", "Archery", "Artistic Gymnastics", "Athletics", "Badminton", "Baseball 5", "Basketball 3x3", "Beach Handball", "Beach Volleyball", "Boxing", "Breaking", "Cycling BMX Freestyle", "Cycling Road", "Diving", "Equestrian", "Fencing", "Futsal (Soccer)", "Golf", "Hockey", "Judo", "Karate", "Modern Pentathlon", "Rhythmic Gymnastics", "Roller SPeed Skating", "Rowing", "Rugby Sevens", "Sailing", "Shooting", "Skateboarding", "Sport Climbing","Surfing","Swimming","Table Tennis","Taekwondo","Tennis","Trampoline","Triathlon","Weightlifting","Wrestling","Wushu",];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
+}
+
+function winterYouthOlympicSports(){
    
 }
