@@ -196,14 +196,14 @@ function naturalHazards() {
    display.textContent = `${computerChoice}`;
 }
 
-function dogbreeds(){
+function dogbreeds() {
    const list = ["Avalanche", "Coastal Flooding", "Cold Wave", "Drought", "Earthquake", "Hail", "Heat Wave", "Hurricane", "Ice Storm", "Landslide", "Lightning", "Riverine Flooding", "Strong Wind", "Tornado", "Tsunami", "Volcanic Activity", "Wildfire", "Winter Weather",];
    const computerChoice = list[Math.floor(Math.random() * list.length)];
    const display = document.getElementById('result');
    display.textContent = `${computerChoice}`;
 }
 
-function bubbleWrap(){
+function bubbleWrap() {
 
 
    document.getElementById("bubblePicture").innerHTML = `<img 
@@ -213,34 +213,46 @@ id="picture" src="Popped Bubble wrap resize (78 x 71).png">`;
    audio.play();
 }
 
-function newBubbleWrap(){
+function newBubbleWrap() {
    document.getElementById("bubblePicture").innerHTML = `<img 
    onclick="bubbleWrap()" id="picture" src="Single bubble.png">`;
 }
 
-
-function banana(){
-   const bananaImages = [ 'Ackee.png.webp',`avocado.png.webp`, 'bananas-1.png.webp']
+// Jamacian
+function banana() {
+   const bananaImages = ['Ackee.png.webp', `avocado.png.webp`, 'bananas-1.png.webp', "cherry-1.png.webp", "custard-apple-20162856.webp","guava-1.png.webp","Guinep.png.webp","jackfruit-1.png.webp","istockphoto-2039468660-612x612.jpg",]
 
    const selectedBanana = bananaImages[Math.floor(Math.random() * bananaImages.length)];
 
-   if(selectedBanana == "Ackee.png.webp"){
+   if (selectedBanana == "Ackee.png.webp") {
       document.getElementById("result2").innerHTML = `Ackee`;
    }
-       else if (selectedBanana == "avocado.png.webp"){
-         document.getElementById("result2").innerHTML = ` Avocado (Jamaican Pear)`;
-      }
-   else if (selectedBanana == 'bananas-1.png.webp'){
+   else if (selectedBanana == "avocado.png.webp") {
+      document.getElementById("result2").innerHTML = ` Avocado (Jamaican Pear)`;
+   }
+   else if (selectedBanana == 'bananas-1.png.webp') {
       document.getElementById("result2").innerHTML = ` Banana`;
    }
-   
-
-   // document.getElementById('result').innerHTML = `<img src="Single bubble.png"`;
-
+   else if (selectedBanana == 'cherry-1.png.webp') {
+      document.getElementById("result2").innerHTML = ` Cherries`;
+   }
+   else if (selectedBanana == 'custard-apple-20162856.webp') {
+      document.getElementById("result2").innerHTML = ` Custard Apple`;
+   }
+   else if (selectedBanana == 'guava-1.png.webp') {
+      document.getElementById("result2").innerHTML = ` Guava`;
+   }
+   else if (selectedBanana == 'Guinep.png.webp') {
+      document.getElementById("result2").innerHTML = ` Guinep`;
+   }
+   else if (selectedBanana == 'jackfruit-1.png.webp') {
+      document.getElementById("result2").innerHTML = ` Jackfruit`;
+   }
+   else if (selectedBanana == 'istockphoto-2039468660-612x612.jpg') {
+      document.getElementById("result2").innerHTML = ` June Plum`;
+   }
+   // Display/results Part
    document.getElementById("jamResult").innerHTML = `<img 
 src="${selectedBanana}">`
-
-   // document.getElementById("result").innerHTML = `<img 
-   // onclick="bubbleWrap()" id="picture" src="Banana 1.jpg">`
 
 }
