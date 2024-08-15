@@ -209,10 +209,13 @@ const display = document.getElementById('appear');
 
     display.textContent = `Hello`;
    
-const test = document.getElementById(`test`);
-   test. = ` Whatt`;
+// const test = document.getElementById(`test`);
+//    test. = ` Whatt`;
 
-   document.getElementById(`test`);
+   document.getElementById("test").innerHTML = `<img 
+id="picture" src="Popped Bubble wrap resize (78 x 71).png">`;
+
+   //Popped Bubble wrap resize (78 x 71).png
 }
 
 //<img src="Popped Bubble wrap.png">
