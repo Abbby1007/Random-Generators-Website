@@ -195,3 +195,16 @@ function naturalHazards() {
    const display = document.getElementById('result');
    display.textContent = `${computerChoice}`;
 }
+
+function dogbreeds(){
+   const list = ["Avalanche", "Coastal Flooding", "Cold Wave", "Drought", "Earthquake", "Hail", "Heat Wave", "Hurricane", "Ice Storm", "Landslide", "Lightning", "Riverine Flooding", "Strong Wind", "Tornado", "Tsunami", "Volcanic Activity", "Wildfire", "Winter Weather",];
+   const computerChoice = list[Math.floor(Math.random() * list.length)];
+   const display = document.getElementById('result');
+   display.textContent = `${computerChoice}`;
+}
+
+function bubbleWrap(){
+const display = document.getElementById('appear');
+   // document.getElementById("appear").innerHTML = `Hello`
+    display.textContent = `Hello`;
+}
