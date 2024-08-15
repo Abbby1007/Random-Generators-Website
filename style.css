@@ -55,6 +55,11 @@ img {
   max-height: 100%;
 }
 
+#picture{
+  max-width: 100%;
+  max-height: 100%;
+}
+
 #colorAndAnimation {
   background-color: #000000;
   color: white;
@@ -152,5 +157,5 @@ img {
 }
 
 #bubbleWrap{
-  
+  background-color: #e0ffff;
 }

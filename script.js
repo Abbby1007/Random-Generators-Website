@@ -218,4 +218,11 @@ function newBubbleWrap(){
    onclick="bubbleWrap()" id="picture" src="Single bubble.png">`;
 }
 
-//<img src="Popped Bubble wrap.png">
+
+function banana(){
+   const bananaImages = [ "ba"]
+
+   const selectedBanana = bananaImages[Math.floor(Math.random() * bananaImages.length)];
+
+   document.getElementById('result').innerHTML = `<img src="${selectedBanana}"`;
+}
