@@ -220,9 +220,20 @@ function newBubbleWrap(){
 
 
 function banana(){
-   const bananaImages = [ "ba"]
+   const bananaImages = [ 'Banana 1.jpg',`Single bubble.png`]
 
    const selectedBanana = bananaImages[Math.floor(Math.random() * bananaImages.length)];
 
-   document.getElementById('result').innerHTML = `<img src="${selectedBanana}"`;
+   if(selectedBanana == "Banana 1.jpg"){
+      document.getElementById("result2").innerHTML = `Banana`
+   }
+
+   // document.getElementById('result').innerHTML = `<img src="Single bubble.png"`;
+
+   document.getElementById("result").innerHTML = `<img 
+src="${selectedBanana}">`
+
+   // document.getElementById("result").innerHTML = `<img 
+   // onclick="bubbleWrap()" id="picture" src="Banana 1.jpg">`
+
 }
