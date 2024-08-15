@@ -204,18 +204,18 @@ function dogbreeds(){
 }
 
 function bubbleWrap(){
-const display = document.getElementById('appear');
-   // document.getElementById("appear").innerHTML = `Hello`
 
-    display.textContent = `Hello`;
-   
-// const test = document.getElementById(`test`);
-//    test. = ` Whatt`;
 
-   document.getElementById("test").innerHTML = `<img 
+   document.getElementById("bubblePicture").innerHTML = `<img 
 id="picture" src="Popped Bubble wrap resize (78 x 71).png">`;
 
-   //Popped Bubble wrap resize (78 x 71).png
+   let audio = new Audio("pop-39222.mp3");
+   audio.play();
+}
+
+function newBubbleWrap(){
+   document.getElementById("bubblePicture").innerHTML = `<img 
+   onclick="bubbleWrap()" id="picture" src="Single bubble.png">`;
 }
 
 //<img src="Popped Bubble wrap.png">
