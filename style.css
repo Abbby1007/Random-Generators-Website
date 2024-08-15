@@ -161,6 +161,11 @@ img {
 }
 
 #banana{
-  background-color: #ffe135 ;
-  color:##6b3e26  ;
+  background-color: #009B3A ;
+  color:#FED100  ;
+}
+
+#jamResult{
+  max-width: 100%;
+  max-height: 100%;
 }

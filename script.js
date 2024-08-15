@@ -225,12 +225,16 @@ function banana(){
    const selectedBanana = bananaImages[Math.floor(Math.random() * bananaImages.length)];
 
    if(selectedBanana == "Banana 1.jpg"){
-      document.getElementById("result2").innerHTML = `Banana`
+      document.getElementById("result2").innerHTML = `Banana`;
    }
+       else if (selectedBanana == "Single bubble.png"){
+         document.getElementById("result2").innerHTML = `Bubble Wrap`;
+      }
+   
 
    // document.getElementById('result').innerHTML = `<img src="Single bubble.png"`;
 
-   document.getElementById("result").innerHTML = `<img 
+   document.getElementById("jamResult").innerHTML = `<img 
 src="${selectedBanana}">`
 
    // document.getElementById("result").innerHTML = `<img 
