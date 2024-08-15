@@ -220,7 +220,7 @@ function newBubbleWrap() {
 
 // Jamacian
 function banana() {
-   const bananaImages = ['Ackee.png.webp', `avocado.png.webp`, 'bananas-1.png.webp', "cherry-1.png.webp", "custard-apple-20162856.webp","guava-1.png.webp","Guinep.png.webp","jackfruit-1.png.webp","istockphoto-2039468660-612x612.jpg",]
+   const bananaImages = ['Ackee.png.webp', `avocado.png.webp`, 'bananas-1.png.webp', "cherry-1.png.webp", "custard-apple-20162856.webp","guava-1.png.webp","Guinep.png.webp","jackfruit-1.png.webp","istockphoto-2039468660-612x612.jpg", "Mango-2.jpg.webp", "Naseberry.png.webp", "Ortanique.png.webp", "Otaheiti-apple.png.webp", "papaya-1.png.webp", "Jamaican-passionfruit.jpg.webp","Pineapple-1.jpg.webp","jamaican_hog_plum.jpg.webp", "watermelon.png.webp", "Tamarind.png.webp","Sugar-Apple.png.webp","Purple-star-apples.jpg.webp","Soursop.png.webp"]
 
    const selectedBanana = bananaImages[Math.floor(Math.random() * bananaImages.length)];
 
@@ -251,6 +251,47 @@ function banana() {
    else if (selectedBanana == 'istockphoto-2039468660-612x612.jpg') {
       document.getElementById("result2").innerHTML = ` June Plum`;
    }
+   else if (selectedBanana == 'Mango-2.jpg.webp') {
+      document.getElementById("result2").innerHTML = ` Mango`;
+   }
+   else if (selectedBanana == 'Naseberry.png.webp') {
+      document.getElementById("result2").innerHTML = `Naseberry`;
+   }
+   else if (selectedBanana == 'Ortanique.png.webp') {
+      document.getElementById("result2").innerHTML = `Ortanique`;
+   }
+   else if (selectedBanana == 'Otaheiti-apple.png.webp') {
+      document.getElementById("result2").innerHTML = `Otaheiti Apple`;
+   }
+   else if (selectedBanana == 'papaya-1.png.webp') {
+      document.getElementById("result2").innerHTML = `Papaya`;
+   }
+   else if (selectedBanana == 'Jamaican-passionfruit.jpg.webp') {
+      document.getElementById("result2").innerHTML = `Jamaican Passionfruit`;
+   }
+   else if (selectedBanana == 'Pineapple-1.jpg.webp') {
+      document.getElementById("result2").innerHTML = `Pineapple`;
+   }
+   else if (selectedBanana == 'jamaican_hog_plum.jpg.webp') {
+      document.getElementById("result2").innerHTML = `Plums`;
+   }
+   else if (selectedBanana == 'Soursop.png.webp') {
+      document.getElementById("result2").innerHTML = `Soursop`;
+   }
+   else if (selectedBanana == 'Purple-star-apples.jpg.webp') {
+      document.getElementById("result2").innerHTML = `Starapple`;
+   }
+   else if (selectedBanana == 'Sugar-Apple.png.webp') {
+      document.getElementById("result2").innerHTML = `Sweetsop`;
+   }
+   else if (selectedBanana == 'Tamarind.png.webp') {
+      document.getElementById("result2").innerHTML = `Tamarind`;
+   }
+   else if (selectedBanana == 'watermelon.png.webp') {
+      document.getElementById("result2").innerHTML = `Watermelon`;
+   }
+
+
    // Display/results Part
    document.getElementById("jamResult").innerHTML = `<img 
 src="${selectedBanana}">`
