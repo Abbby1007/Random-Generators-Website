@@ -206,5 +206,13 @@ function dogbreeds(){
 function bubbleWrap(){
 const display = document.getElementById('appear');
    // document.getElementById("appear").innerHTML = `Hello`
+
     display.textContent = `Hello`;
+   
+const test = document.getElementById(`test`);
+   test. = ` Whatt`;
+
+   document.getElementById(`test`);
 }
+
+//<img src="Popped Bubble wrap.png">
