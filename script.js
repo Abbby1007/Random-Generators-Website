@@ -220,16 +220,19 @@ function newBubbleWrap(){
 
 
 function banana(){
-   const bananaImages = [ 'Banana 1.jpg',`Single bubble.png`]
+   const bananaImages = [ 'Ackee.png.webp',`avocado.png.webp`, 'bananas-1.png.webp']
 
    const selectedBanana = bananaImages[Math.floor(Math.random() * bananaImages.length)];
 
-   if(selectedBanana == "Banana 1.jpg"){
-      document.getElementById("result2").innerHTML = `Banana`;
+   if(selectedBanana == "Ackee.png.webp"){
+      document.getElementById("result2").innerHTML = `Ackee`;
    }
-       else if (selectedBanana == "Single bubble.png"){
-         document.getElementById("result2").innerHTML = `Bubble Wrap`;
+       else if (selectedBanana == "avocado.png.webp"){
+         document.getElementById("result2").innerHTML = ` Avocado (Jamaican Pear)`;
       }
+   else if (selectedBanana == 'bananas-1.png.webp'){
+      document.getElementById("result2").innerHTML = ` Banana`;
+   }
    
 
    // document.getElementById('result').innerHTML = `<img src="Single bubble.png"`;
